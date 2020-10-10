@@ -1,4 +1,4 @@
-version: '3.2'
+version: '3.8'
 
 services:
   elasticsearch:
@@ -50,7 +50,8 @@ services:
       - elk
     depends_on:
       - elasticsearch
-
+    env_file: 
+      - .env
   kibana:
     build:
       context: kibana/

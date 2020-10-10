@@ -11,3 +11,5 @@ monitoring.ui.container.elasticsearch.enabled: true
 #
 elasticsearch.username: elastic
 elasticsearch.password: changeme
+xpack.security.encryptionKey: BIMUSESDM894032489023MINEPEDIA8940324890232020894032489023SUCOFINDO894032489023SQOOD
+xpack.encryptedSavedObjects.encryptionKey: BIMUS738274837222MINEPEDIA7382748372222020738274837222SQOOD738274837222SUCOFINDO
